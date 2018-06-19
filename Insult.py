@@ -13,7 +13,7 @@ def aOrAn(string):
 
 import random
 times = int(input("How many insults would thou like?\t"))
-print(c("Did you like this? Make sure to upvote it in the \"I built this (bots).\" If you want more, make sure to check out the Shipper I have also posted on \"I built this (bots).\" Make sure to upvote it too! And although, it's not that advanced, (only 4500 lines), check out my version of Alexa (also on \"I built this (bots)).\"", "green", attrs = ['dark']))
+print(c("Did you like this? Make sure to upvote it\n---------------------------", attrs = ['dark']))
 for count in range(times):
   part1 = random.choice(list1)
   part2 = random.choice(list2)
@@ -26,4 +26,4 @@ for count in range(times):
     print("\nThou art a %s %s %s." % (part1, part2, part3))
 
 print()
-print(c("Did you like this? Make sure to upvote it in the \"I built this (bots).\" If you want more, make sure to check out the Shipper I have also posted on \"I built this (bots).\" Make sure to upvote it too! And although, it's not that advanced, (only 4500 lines), check out my version of Alexa (also on \"I built this (bots)).\"", "red", attrs = ['dark']))
+print(c)
